@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    <!-- <h1>Ödev01 1-12 Arası Sayı</h1> 
+
+
+     <p>1-12 Arası Rasgele sayı Üretme.</p>
+ 
+    <button onclick="myFunction()">1-12 arası Sayı Üret</button>
+     
+    <p id="test"></p>
+    <script>
+        function myFunction() {
+        let pElement = document.getElementById("test")
+        let randomNumber = Math.floor(Math.random() * 12 + 1);
+
+        if (randomNumber === 1) {
+        pElement.innerHTML = randomNumber + "-Ocak"
+    
+        } else if (randomNumber === 2) {
+        pElement.innerHTML = randomNumber + "-Şubat"
+        
+       } else if (randomNumber === 3) {
+        pElement.innerHTML = randomNumber + "-Mart"
+
+       } else if (randomNumber === 4) {
+        pElement.innerHTML = randomNumber + "-Nisan"
+
+       } else if (randomNumber === 5) {
+        pElement.innerHTML = randomNumber + "-Mayıs"
+
+       } else if (randomNumber === 6) {
+        pElement.innerHTML = randomNumber + "-Haziran"
+
+       } else if (randomNumber === 7) {
+        pElement.innerHTML = randomNumber + "-Temmuz"
+
+       } else if (randomNumber === 8) {
+        pElement.innerHTML = randomNumber + "-Ağustos"
+
+       } else if (randomNumber === 9) {
+        pElement.innerHTML = randomNumber + "-Eylül"
+
+       } else if (randomNumber === 10) {
+        pElement.innerHTML = randomNumber + "-Ekim"
+
+       } else if (randomNumber ===11) {
+        pElement.innerHTML = randomNumber + "-Kasım"
+
+       } else if (randomNumber === 12) {
+        pElement.innerHTML = randomNumber + "-Aralık"
+       }
+
+
+
+}
+</script> -->
+
+       <!-- <h1>Ödev02 1-7 Arası Sayı Üretme</h1> 
+
+ 
+    <button onclick="myFunction()">1-7 arası Sayı Üret</button>
+     
+    <p id="test"></p>
+    <script>
+        function myFunction() {
+        let number = document.getElementById("test")
+        let randomNumber = Math.floor(Math.random() * 7 + 1); 
+
+       
+
+       if (randomNumber === 1) {
+       number.innerHTML = randomNumber + "-Pazartesi"
+    
+       } else if (randomNumber === 2) {
+       number.innerHTML = randomNumber + "-Salı"
+        
+       } else if (randomNumber === 3) {
+       number.innerHTML = randomNumber + "-Çarşamba"
+
+       } else if (randomNumber === 4) {
+       number.innerHTML = randomNumber + "-Perşembe"
+
+       } else if (randomNumber === 5) {
+       number.innerHTML = randomNumber + "-Cuma"
+
+       } else if (randomNumber === 6) {
+       number.innerHTML = randomNumber + "-Cumartesi"
+
+       } else if (randomNumber === 7) {
+       number.innerHTML = randomNumber + "-Pazar"
+       }
+
+
+}
+
+
+</script> 
+    -->
+
+
+    <!-- <h1>ÖDEV3 VKİ</h1>
+
+    <p>Vücut Kitle Endeksi Hesaplama</p>  
+    
+    <label>Boyunuzu Giriniz(m): </label>
+    <input type="number" id="boy">
+    <label>Kilonuzu giriniz(kg): </label>
+    <input type="number" id="kilo">
+
+    <button id="hesapla" onclick="hesapla()">Hesapla</button>
+
+    
+    <script>
+        function hesapla(){
+            let boy=document.getElementById("boy").value;
+            let kilo=document.getElementById("kilo").value;
+
+            let b = Number(boy);
+            let k = Number(kilo);
+
+            let ind = k / (b*b);
+
+            if(ind<18.5)
+                alert("Underweight" + " " + ind.toFixed(2));
+            else if(ind>=18.5 && ind<25)
+                alert("Normal" + " " +  ind.toFixed(2));
+            else if(ind>=25 && ind<30)
+                alert("Overweight" + " " + ind.toFixed(2));
+            else if(ind>=30)
+                alert("Obese" + " " +  ind.toFixed(2));
+           
+        }
+    </script>               -->
+
+      <!-- <h1>Ödev5 Yazı Tura</h1>
+    
+     <button onclick="myFunction()">0-1 arası Sayı Üret</button>
+     
+     <p id="test"></p>
+     <script>
+         function myFunction() {
+         let number = document.getElementById("test")
+        let randomNumber = Math.floor(Math.random() * 2  );
+
+         if (randomNumber === 0) {
+            number.innerHTML = randomNumber+ "-Yazı"
+         } else if (randomNumber === 1) {
+            number.innerHTML = randomNumber + "-Tura"
+         }
+      
+ } 
+  </script>   -->
+
+
+
+            <!-- <h1>Ödev4 Palindrom Kelimeler</h1>
+    <script>
+        let kelime = prompt("Lütfen bir kelime yazınız.");
+        let kelimeninTersi = "";
+
+        for(let i = kelime.length-1; i >= 0; i--){
+            kelimeninTersi = kelimeninTersi + kelime.charAt(i);
+        }
+
+        if(kelimeninTersi === kelime){
+            alert(`"${kelime}" palindrom bir kelimedir!`)
+        } else{
+            alert(`"${kelime}" palindrom bir kelime değildir!`)
+        } asdf
+ 
+    </script>                         -->
+
+   <!-- <h1>Ödev4.1 Palindrom Sayılar</h1>
+
+  <script>        
+           
+//      function validatePalin(str) {  
+      
+//           get the total length of the words  
+//          const len = string.length;  
+      
+//           Use for loop to divide the words into 2 half  
+//          for (let i = 0; i < len / 2; i++) {  
+      
+//               validate the first and last characters are same  
+//              if (string[i] !== string[len - 1 - i]) {  
+//                  alert( 'Maalesef, bu bir palindrom sayı değil');  
+//              }  
+//          }  
+//          alert( 'Tebrikler, bu bir palindrom sayı');  
+//      }  
+      
+//       accept the string or number from the prompt  
+//      const string = prompt('Sayı Giriniz: ');  
+      
+//      const value = validatePalin(string);  
+      
+//      console.log(value);  
+//      </script>   -->
+    
+</body>
+</html>
